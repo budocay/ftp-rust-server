@@ -22,7 +22,7 @@ impl TryFrom<&[u8]> for Request {
         unimplemented!()
     }
 }
-
+/** Not remove
 /*
  Here we create a trait named Encrypt wich will allow us
  to encrypt our received message. This is an extend functionnality.
@@ -49,3 +49,4 @@ impl Encrypt for &[u8] {
         unimplemented!()
     }
 }
+**/
